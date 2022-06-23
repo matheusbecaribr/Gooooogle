@@ -30,18 +30,56 @@ header img{
     width: 30px;
 }
 
-.main{
-    width: 100vw;
-    height: 90vh;
+.maingoogle{
     display: flex;
     justify-content: center;
 }
 
 #google{
-    margin-top: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 250px;
-    height: 80px;
+}
+
+.mainpesquisar{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisar{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    border: 1px solid rgb(230, 230, 230);
+    width: 500px;
+    border-radius: 100px;
+}
+
+.pesquisar:hover{
+    box-shadow: 0px 2px 5px rgb(200, 200, 200);
+}
+
+.pesquisar img{
+    width: 16px;
+    height: 16px;
+}
+
+input{
+    border: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0;
 }
